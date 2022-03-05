@@ -1,0 +1,303 @@
+.pad{
+    padding: 0.2% 15%;
+}
+h1{
+    color: #0c2e8a;
+    font-family:"Montserrat";
+    font-weight: 700;
+    font-size: 42px;
+}
+.clr_chg{
+    color: #50d8af;
+}
+.bc{
+    color: #0c2e8a;
+}
+.grey_color{
+    color:#555;
+}
+ul.no-bullets{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+#header_body{
+
+    width: 100%;
+    height: 60vh; 
+    background-size: cover;
+    padding: 0;
+}
+.main_content{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 16vh;
+    text-align: center;
+    z-index: 220;
+    font-family: "Raleway", sans-serif;
+}
+#header_body .main_content h2{
+    color: #0c2e8a;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 5500;
+}
+#header_body .main_content  span {
+     text-decoration: underline;
+}
+@media (max-width: 767px) {
+    #header_body .main_content h2 {
+      font-size: 34px;
+    }
+    .main_content{
+        margin-left: 10%;
+        margin-top: 43%;
+    }
+}
+
+.btn_main1{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    border-radius: 2px;
+    margin: 10px;
+    background-color: #0c2e8a;
+    color: white;
+}
+.btn_main2{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    border-radius: 2px;
+    margin: 10px;
+    background-color:#50d8af;
+    color: white;
+}
+.btn_main1:hover{
+    color: #0c2e8a;
+    background-color: white;
+    border-color: #0c2e8a;
+    border: solid;
+}
+.btn_main2:hover{
+    color: #50d8af;
+    background-color: white;
+    border-color: #50d8af;
+    border: solid;
+}
+
+.img_main{
+    width: 100%;
+    height: 60vh;
+    opacity: 0.5;
+}
+
+  
+/*About Section*/
+.img_about{
+    width: 100%;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .img_about {
+      height: auto;
+    }
+    .img_about {
+      margin-left: 0;
+      padding-bottom: 40px;
+    }
+}
+   
+.about_p{
+    font-weight: 300;
+    font-size: 19px;
+    text-align: left;
+}
+.li_about{
+    font-size: 15px;
+    font-weight: 360;
+    
+}
+.about_icon{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+/*Service Section*/
+#services{
+    margin-top: 70px;
+}
+.common{
+    color: #0c2e8a;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 32px;
+}
+
+#services .service_mar{
+    margin-top: 0px;
+}
+.service_main{
+    margin-top: 25px;
+    color: #555;
+}
+#services .box{
+    box-shadow: 10px 10px 15px rgba(73,78,92,0.1);
+    padding: 40px;
+    height: 100%;
+}
+#services .box .icon {
+    float: left;
+}
+#services .box .icon i {
+    color: #50d8af;
+    font-size: 64px;
+    margin-top: 34px;
+  }
+  #services h4{
+      margin-left: 100px;
+      margin-top: 28px;
+      font-weight: 700;
+      color: #444;
+      margin-bottom: 15px;
+  }
+  #services .service_1{
+      margin-left: 100px;
+      font-size: 15px;
+  }
+
+  @media (max-width: 768px) {
+    #services .box{
+        text-align: center;
+    }
+    #services .box .icon {
+        float: none;
+    }
+    #services h4{
+        margin-left: 0px;
+        margin-top: 28px;
+
+
+        margin-bottom: 15px;
+    }
+    #services .service_1{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+}
+
+
+/* Clients Section*/
+.carousel-indicators{
+    top: 70px;
+    margin-bottom: 0px;
+}
+#portfolio .btn{
+    background-color: #50d8af;
+    color: white;
+
+
+}
+#portfolio .card{
+padding-bottom: 24px;
+}
+
+/* Call To Action Section
+--------------------------------*/
+#call-to-action {
+    background: #081e5b;
+    background-size: cover;
+    padding: 40px 0;
+    margin-top: 40px;
+  }
+  #call-to-action .cta-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 650;
+  }
+  #call-to-action .cta-text {
+    color: #fff;
+  }
+  @media (min-width: 769px) {
+    #call-to-action .cta-btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  #call-to-action .cta-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 26px;
+    border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #fff;
+    color: #fff;
+  }
+  #call-to-action .cta-btn:hover {
+    background: #50d8af;
+    border: 3px solid #50d8af;
+  }
+
+  /* Our Team Section
+--------------------------------*/
+#team {
+    background: #fff;
+    padding: 28px 0 0 0;
+  }
+  #team .member {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #team .member .pic {
+    overflow: hidden;
+    text-align: center;
+  }
+  #team .member .pic img {
+    max-width: 100%;
+  }
+  #team .member .details {
+    background: #50d8af;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+  }
+  #team .member h4 {
+    font-weight: 650;
+    margin-bottom: 2px;
+    font-size: 18px;
+  }
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  #team .member .social {
+    margin-top: 5px;
+  }
+  #team .member .social a {
+    color: #fff;
+  }
+  #team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+  }
+  #footer {
+    background: #f2f5f8;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+  }
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+
